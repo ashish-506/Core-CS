@@ -1,33 +1,33 @@
-package Basics.Functions;
+Functions inside class is called method
+So every function in JAVA is called a Method
+Method overloading aata hai to usko nhi cover kiya hai inn files me
 
-// Functions inside class is called method
-// So every function in JAVA is called a Method
-// Method overloading aata hai to usko nhi cover kiya hai inn files me
 
-/*
-syntax:
-    access_modifier return_type name_of_function(data_type parameters){
-        body;
-        return statement;
-    }
-
+`syntax:`<br>
+```
+access_modifier return_type name_of_function(data_type parameters){
+    body;
+    return statement;
+}
+```
 Classes ke andar function kahi prr bhi declare kiya jaa sakta hai zaruri nahi ki call krne se pehle declare hi krna hai.
 
-In java, there is only pass by ref. value
+In java, there is only `pass by ref. value`
+```js
     func(String naam){
         naam = "kunal";
     }
     String name = "ashish";
-    func(name); this is not going to change name to "kunal";
-    it will be something like name : "ashish" and naam : "kunal". Strings are immutable in JAVA so are other wrapper objects like Integer.
+    func(name); //this is not going to change name to "kunal";
+    //it will be something like name : "ashish" and naam : "kunal". Strings are immutable in JAVA so are other wrapper objects like Integer.
+```
 
-    Agr 2 variables ki value same hai to ye JAVA ke upar hai ki vo heap me 2 alg values create krta hai
-    ya phir dono variables ko same memory location me point krwata hai
+Agr 2 variables ki value same hai, to ye JAVA ke upar hai ki vo heap me 2 alg values create krta hai
+ya phir dono variables ko same memory location me point krwata hai
 
-    In case of Arrays/Objects, it is not pass by ref., it is pass by the copy of the value of the ref. (basically copy of memory add.)
+In case of Arrays/Objects, it is not pass by ref., it is pass by the copy of the value of the ref. (basically copy of memory add.)
 
-*/
-
+```java
 import java.util.Arrays;
 
 public class Main {
@@ -53,3 +53,4 @@ public class Main {
     }
     // Ques: Phir swap(a,b) jaise functions honge hi nahi JAVA me? Hrr baar swap ka code likhna padega?
 }
+```
