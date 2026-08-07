@@ -54,6 +54,6 @@ Shadowing, function-scope hai block-scope nahi
 ```
 
 ## Method Overloading
-Same class me 2 methods `exactly` same nhi ho sakte.<br>
+Same class me, 2 methods `exactly` same nhi ho sakte.<br>
 Ya to methods ke naam change kro, ya number of parameters change kro,
 ya parameters ka data type change kro.
