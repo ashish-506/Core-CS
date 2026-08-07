@@ -1,10 +1,10 @@
-Functions inside class is called method
-So every function in JAVA is called a Method
+Functions inside class is called method<br>
+So every function in JAVA is called a Method<br>
 Method overloading aata hai to usko nhi cover kiya hai inn files me
 
 
 `syntax:`<br>
-```
+```js
 access_modifier return_type name_of_function(data_type parameters){
     body;
     return statement;
